@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/appYonetim"
+    android:gravity="center_horizontal"
+    android:orientation="vertical"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="oceannet.com.ziparisyonetim.UI.Avt_login"
+    tools:showIn="@layout/activity_avt_login">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="@color/appYonetim"
+        android:gravity="center_vertical">
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:layout_marginLeft="10dp"
+            android:layout_weight="4.6"
+            android:background="@drawable/hamburger_2x"
+            android:onClick="click_hamburger"
+
+            android:visibility="invisible" />
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:layout_weight="1"
+            app:srcCompat="@drawable/ustlogo_2x" />
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:layout_weight="4.7"
+            android:background="@drawable/tamamlanansiparis_2x"
+            android:onClick="click_hamburger2"
+            android:visibility="invisible" />
+
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@android:color/background_light">
+
+    </LinearLayout>
+
+    <ImageView
+        android:layout_width="110dp"
+        android:layout_height="130dp"
+        android:layout_marginTop="40dp"
+        android:src="@drawable/logo_girisyap_2x" />
+
+
+    <EditText
+        android:id="@+id/edt_eposta"
+        android:layout_width="300dp"
+        android:layout_height="41dp"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/eposta_girisyap_2x"
+        android:hint="e-posta"
+        android:paddingLeft="40dp"
+        android:textColor="@android:color/white"
+        android:textColorHint="@android:color/white" />
+
+    <EditText
+        android:id="@+id/edt_sifre"
+        android:layout_width="300dp"
+        android:layout_height="41dp"
+        android:layout_marginTop="3dp"
+        android:background="@drawable/sifre_girisyap_2x"
+        android:hint="Şifre"
+        android:paddingLeft="40dp"
+        android:textColor="@android:color/white"
+        android:textColorHint="@android:color/white" />
+
+    <Button
+        android:id="@+id/btn_sifreunutum"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@android:color/transparent"
+        android:text="Şifremi Unuttum"
+        android:textColor="@android:color/white"
+        android:onClick="click_sifreunutum"
+        />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="130dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="120dp"
+        android:background="@drawable/bcg_btn_login"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp"
+        android:text="GİRİŞ YAP"
+        android:textColor="@color/appYonetim"
+        android:onClick="click_girsiYap"
+        />
+</LinearLayout>

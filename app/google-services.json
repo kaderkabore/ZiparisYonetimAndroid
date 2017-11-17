@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "158132739515",
+    "firebase_url": "https://ziparisyonetim.firebaseio.com",
+    "project_id": "ziparisyonetim",
+    "storage_bucket": "ziparisyonetim.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:158132739515:android:57bf28b2d1fd5e00",
+        "android_client_info": {
+          "package_name": "oceannet.com.ziparisyonetim"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "158132739515-k3bg7ufh15583jnr720klqtscob7ec3h.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA3quvaTPqTQFSMzqFnFdZEFTOdfkF1eZo"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

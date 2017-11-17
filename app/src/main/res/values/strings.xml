@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">Zipariş Yönetim</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_main2">Main2Activity</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="title_activity_main_menu">MainMenu</string>
+    <string name="title_activity_avt_login">Avt_login</string>
+    <string name="title_activity_avt_loading">Avt_loading</string>
+    <string name="title_activity_avt_sifre_unuttum">Avt_sifreUnuttum</string>
+    <string name="title_activity_avt__yeni_sifre">Avt_YeniSifre</string>
+    <string name="title_activity_avt_gecmis_siparisler">Avt_gecmisSiparisler</string>
+    <string name="title_activity_avt__profil">Avt_Profil</string>
+</resources>
